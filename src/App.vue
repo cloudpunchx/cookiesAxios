@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <AxiosComp/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AxiosComp from '@/components/AxiosComp.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    AxiosComp,
   }
 }
 </script>
